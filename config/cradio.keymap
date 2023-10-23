@@ -20,8 +20,8 @@
 // -----------------
 
 &mt {
-   //  flavor = "tap-preferred";
-   // tapping_term_ms = <200>;
+    flavor = "tap-preferred";
+   tapping_term_ms = <200>;
 };
 
 &sk {
@@ -29,18 +29,6 @@
 };
 
 / {
-		macros {
-				// sometimes my device thinks a modifier is being held down
-				// pressing all modifiers fixes it.
-				unstick: unstick {
-					label = "ZM_unstick";
-					compatible = "zmk,behavior-macro";
-					#binding-cells = <0>;
-					bindings
-						= <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
-				};
-		};
-
     keymap {
       compatible = "zmk,keymap";
   layer0 {
