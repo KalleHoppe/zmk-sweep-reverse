@@ -80,8 +80,8 @@
           >;
         };layer5 {
           bindings = <
-          LS(N2)        LS(DOT)  RA(N8)      RA(N9)      RA(N2)                      &trans          &trans  LS(N7)  RA(MINUS)   &trans  
-          RA(N7)         RA(N0)     LS(N8)      LS(N9)      LS(COMMA)                   &kp LEFT_SHIFT  &none   LS(N0)  &kp MINUS     &trans        
+          LS(N2)        LS(DOT)     RA(N8)      RA(N9)      RA(N2)                      &trans          &trans  LS(N7)  RA(MINUS)   &trans  
+          RA(N7)        RA(N0)      LS(N8)      LS(N9)      LS(COMMA)                   &kp LEFT_SHIFT  &none   LS(N0)  &kp MINUS     &trans        
           LS(N5)        LS(N3)      &kp NUBS    LS(NUBS)    &kp EQUAL                   &trans          &trans  &trans  &kp SLASH     &trans 
                                                 &kp K_VOL_DN &trans                     &trans          &kp K_VOL_UP
           >;    
@@ -101,7 +101,7 @@
           >;
         };layer8 {
           bindings = <
-          &kp TAB       &kp ESCAPE    &trans    &trans        DF(1)                     DF(0)       &trans        &kp F5          &trans    &trans 
+          &kp TAB       &kp ESCAPE    &trans    &trans        &tog 1                    &tog 0      &trans        &kp F5          &trans    &trans 
           &kp CAPSLOCK  &trans        &trans    &kp ENTER     &kp RC(C)                 &trans      &kp LEFT_GUI  &kp PSCRN       &trans    &kp ENTER 
           &trans        &trans        &trans    LS(N1)        &kp RC(V)                 &trans      &trans        &trans          &trans    &trans 
                                                 &kp LCTRL &kp LEFT_ALT                  &trans      &none
