@@ -75,12 +75,12 @@
           bindings = <
           &trans          &trans        &trans    &trans    &trans                      &kp TILDE     &kp UNDERSCORE    RA(NUBS)        &kp NON_US_HASH   &kp EQUAL 
           LS(N6)          LS(BSLH)      LS(N7)    &none     &kp QUESTION                LS(N3)        LS(N2)            LS(MINUS)       LS(N2)            RA(N4)     
-          &trans          &trans        &trans    &trans    &trans                      LS(N5)        &kp MINUS         &kp BACKSLASH   &kp GRAVE         LS(KC_EQL) 
+          &trans          &trans        &trans    &trans    &trans                      LS(N5)        &kp MINUS         &kp BACKSLASH   &kp GRAVE         LS(EQUAL) 
                                         &kp C_BRIGHTNESS_DEC  &trans                    &trans        &kp C_BRIGHTNESS_INC
           >;
         };layer5 {
           bindings = <
-          LS(N2)        LS(KC_DOT)  RA(N8)      RA(N9)      RA(N2)                      &trans          &trans  LS(N7)  RA(KC_MINS)   &trans  
+          LS(N2)        LS(DOT)  RA(N8)      RA(N9)      RA(N2)                      &trans          &trans  LS(N7)  RA(MINUS)   &trans  
           RA(N7)         RA(N0)     LS(N8)      LS(N9)      LS(COMMA)                   &kp LEFT_SHIFT  &none   LS(N0)  &kp MINUS     &trans        
           LS(N5)        LS(N3)      &kp NUBS    LS(NUBS)    &kp EQUAL                   &trans          &trans  &trans  &kp SLASH     &trans 
                                                 &kp K_VOL_DN &trans                     &trans          &kp K_VOL_UP
