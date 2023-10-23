@@ -56,7 +56,7 @@
         //   &trans              &trans    &kp M     &kp C     &kp V                       &kp K     &kp L     &mt LEFT_ALT COMMA  &mt LCTRL DOT &lt 10 SLASH 
         //                                           &trans    &trans                      &trans  &trans
         //   >;
-        };
+        //};
         navigate {
           bindings = <
           &trans            &trans      &trans    &trans    &trans                      &kp PAGE_UP   &kp HOME &kp UP   &kp END   &none
@@ -98,7 +98,7 @@
         };
         SYS {
           bindings = <
-          &kp TAB       &kp ESCAPE    &trans    &trans        &tog 1                    &tog 0      &trans        &kp F5          &trans    &trans 
+          &kp TAB       &kp ESCAPE    &trans    &trans        &tog COLEMAC              &tog BASE   &trans        &kp F5          &trans    &trans 
           &kp CAPSLOCK  &trans        &trans    &kp ENTER     &kp RC(C)                 &trans      &kp LEFT_GUI  &kp PSCRN       &trans    &kp ENTER 
           &trans        &trans        &trans    LS(N1)        &kp RC(V)                 &trans      &trans        &trans          &trans    &trans 
                                                 &kp LCTRL &kp LEFT_ALT                  &trans      &none
