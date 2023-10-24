@@ -44,7 +44,7 @@
         };colemak {
           bindings = <
           &trans              &trans    &kp F     &kp P     &kp B                       &kp J     &kp L     &kp U     &kp Y     &kp SEMICOLON 
-		      &trans              &lt SYM R   &lt NUMB S   &lt SYM T   &kp G 				              &kp M     &lt CODE N   &kp E     &kp I     &mt LEFT_SHIFT O 
+		      &trans              &lt SYM R   &lt NUMB S   &lt SYM T   &kp G 				        &kp M     &lt CODE N   &kp E     &kp I     &mt LEFT_SHIFT O 
 		      &trans              &trans    &trans    &kp D     &kp V 					            &kp K     &kp H     &trans    &trans    &trans 
 		  						                                &trans    &trans 				              &trans    &trans
           >;
@@ -67,18 +67,18 @@
         };
         symbols {
           bindings = <
-          &trans          &trans        &trans    &trans    &trans                      &kp TILDE     &kp UNDERSCORE    RA(NUBS)        &kp NON_US_HASH   &kp EQUAL 
-          LS(N6)          LS(BSLH)      LS(N7)    &none     &kp QUESTION                LS(N3)        LS(N2)            LS(MINUS)       LS(N2)            RA(N4)     
-          &trans          &trans        &trans    &trans    &trans                      LS(N5)        &kp MINUS         &kp BACKSLASH   &kp GRAVE         LS(EQUAL) 
+          &trans          &trans        &trans    &trans    &trans                      &kp TILDE     &kp UNDERSCORE    &kp RA(NUBS)   &kp NON_US_HASH    &kp EQUAL 
+          &kp LS(N6)      &kp LS(BSLH)      &kp LS(N7)    &none     &kp QUESTION        &kp LS(N3)    &kp LS(N2)   &kp LS(MINUS)   &kp LS(N2)         &kp RA(N4)     
+          &trans          &trans        &trans    &trans    &trans                      &kp LS(N5)    &kp MINUS    &kp BACKSLASH   &kp GRAVE          &kp LS(EQUAL) 
                                         &kp C_BRIGHTNESS_DEC  &trans                    &trans        &kp C_BRIGHTNESS_INC
           >;
         };
         code {
           bindings = <
-          LS(N2)        LS(DOT)     RA(N8)      RA(N9)      RA(N2)                      &trans          &trans  LS(N7)  RA(MINUS)   &trans  
-          RA(N7)        RA(N0)      LS(N8)      LS(N9)      LS(COMMA)                   &kp LEFT_SHIFT  &none   LS(N0)  &kp MINUS     &trans        
-          LS(N5)        LS(N3)      &kp NUBS    LS(NUBS)    &kp EQUAL                   &trans          &trans  &trans  &kp SLASH     &trans 
-                                                &kp K_VOL_DN &trans                     &trans          &kp K_VOL_UP
+          &kp LS(N2)        &kp LS(DOT)     &kp RA(N8)  &kp RA(N9)      &kp RA(N2)                      &trans          &trans  &kp LS(N7)  &kp RA(MINUS)   &trans  
+          &kp RA(N7)        &kp RA(N0)      &kp LS(N8)  &kp LS(N9)      &kp LS(COMMA)                   &kp LEFT_SHIFT  &none   &kp LS(N0)  &kp MINUS     &trans        
+          &kp LS(N5)        &kp LS(N3)      &kp NUBS    &kp LS(NUBS)    &kp EQUAL                       &trans          &trans  &trans  &kp SLASH     &trans 
+                                                                &kp K_VOL_DN &trans                     &trans          &kp K_VOL_UP
           >;    
         };FKEYS {    
           bindings = <    
@@ -92,7 +92,7 @@
           bindings = <    
           &trans      &trans      &trans      &trans      &trans                        &kp KP_PLUS     &kp N7    &kp N8    &kp N9    &kp KP_ASTERISK 
           &trans      &kp COMMA   &none       &kp DOT     &trans                        &kp KP_MINUS    &kp N4    &kp N5    &kp N6    &kp KP_SLASH 
-          &trans      &trans      &trans      &trans      &trans                        LS(N0)          &kp N1    &kp N2    &kp N3    LS(N5)
+          &trans      &trans      &trans      &trans      &trans                        &kp LS(N0)      &kp N1    &kp N2    &kp N3    &kp LS(N5)
                                               &trans      &trans                        &trans          &kp N0
           >;
         };
@@ -100,7 +100,7 @@
           bindings = <
           &kp TAB       &kp ESCAPE    &trans    &trans        &tog COLEMAC              &tog BASE   &trans        &kp F5          &trans    &trans 
           &kp CAPSLOCK  &trans        &trans    &kp ENTER     &kp RC(C)                 &trans      &kp LEFT_GUI  &kp PSCRN       &trans    &kp ENTER 
-          &trans        &trans        &trans    LS(N1)        &kp RC(V)                 &trans      &trans        &trans          &trans    &trans 
+          &trans        &trans        &trans    &kp LS(N1)    &kp RC(V)                 &trans      &trans        &trans          &trans    &trans 
                                                 &kp LCTRL &kp LEFT_ALT                  &trans      &none
           >;
         };
