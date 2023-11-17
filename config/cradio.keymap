@@ -38,7 +38,7 @@
           bindings = <
           &kp Q               &kp W     &kp E     &kp R     &kp T 					            &kp Y     &kp U     &kp I     &kp O     &kp P 
 		      &mt LEFT_SHIFT A    &lt NAV S   &lt NUMB D   &lt SYM F   &kp G 					      &kp H     &lt CODE J   &kp K     &kp L     &mt LEFT_SHIFT SEMICOLON 
-		      &mt LCTRL Z         &lt FKEYS X   &kp C     &kp V     &kp B 				          &kp N     &kp M     &mt LEFT_ALT COMMA  &mt LCTRL DOT &lt 10 SLASH 
+		      &mt LCTRL Z         &lt FKEYS X   &kp C     &kp V     &kp B 				          &kp N     &kp M     &mt LEFT_ALT COMMA  &mt LCTRL DOT &lt MEDIA SLASH 
                               &mt LEFT_SHIFT DELETE   &lt SWE SPACE	                    &kp BACKSPACE &lt SYS SPACE
           >;
         };colemak {
